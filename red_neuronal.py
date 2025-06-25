@@ -1,15 +1,11 @@
 from keras.utils import set_random_seed
-set_random_seed(394867)
-
 import pandas as pd
-from sklearn.model_selection import train_test_split
 from tensorflow.keras.datasets import mnist
-
-
-from keras import Sequential, Input
+from keras import Sequential
 from keras.layers import Dense, Dropout, Flatten, Conv2D, MaxPooling2D
-
 from keras.optimizers import SGD
+
+set_random_seed(394867)
 
 (x_train, y_train), (x_test, y_test) = mnist.load_data()
 

@@ -11,7 +11,7 @@ ventana = tk.Tk()
 ventana.title("Dibuja un número")
 
 # Canvas
-canvas = tk.Canvas(ventana, width=280, height=280, bg='black')
+canvas = tk.Canvas(ventana, width=280, height=280, bg='purple')
 canvas.pack()
 
 # Imagen interna para guardar el dibujo
@@ -28,7 +28,7 @@ def dibujar_con_mouse(event):
                        x + r, 
                        y + r, 
                        fill="white", outline="white")
-    # Escalar coordenadas a 28x28
+    # Escalar coordenadas a 28x28 (tamaño de imagen con la que trabaja la red)
     x_i = event.x * 28 // 280
     y_i = event.y * 28 // 280
     dibujar.ellipse([x_i - 1, y_i - 1, x_i + 1, y_i + 1], fill=255)
@@ -43,10 +43,10 @@ def limpiar_canvas():
 
 #prediccion de la red
 def prediccion():
-    imagen_redimensionada = imagen.resize((28, 28))  # Asegúrate que esté en 28x28
+    #normalizar la img
+    imagen_redimensionada = imagen.resize((28, 28)) 
     img_array = np.array(imagen_redimensionada) / 255.0
 
-    # Expandir dimensiones para que tenga forma (1, 28, 28, 1)
     img_array = np.expand_dims(img_array, axis=-1)
     img_array = np.expand_dims(img_array, axis=0)
 
