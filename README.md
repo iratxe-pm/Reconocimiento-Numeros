@@ -31,10 +31,15 @@ NumPy, Matplotlib (para preprocesamiento y visualización)
 
 ## 📂 Estructura del proyecto
 ├── model/                 # Entrenamiento y almacenamiento del modelo CNN
+
 ├── gui/                   # Código de la interfaz gráfica con Tkinter
+
 ├── utils/                 # Funciones de preprocesamiento y utilidades
+
 ├── main.py                # Punto de entrada de la aplicación
+
 ├── requirements.txt       # Dependencias del proyecto
+
 └── README.md              # Documentación del proyecto
 
 ## ⚡ Cómo ejecutar el proyecto
