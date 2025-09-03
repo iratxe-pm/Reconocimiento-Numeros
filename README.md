@@ -30,11 +30,9 @@ Tkinter
 NumPy, Matplotlib (para preprocesamiento y visualización)
 
 ## 📂 Estructura del proyecto
-├── model/                 # Entrenamiento y almacenamiento del modelo CNN
+├── red_neuronal.py/       # Entrenamiento de la red
 
-├── gui/                   # Código de la interfaz gráfica con Tkinter
-
-├── utils/                 # Funciones de preprocesamiento y utilidades
+├── red_keras/             # Almacenamiento de los resultados del entrenamiento de la red
 
 ├── main.py                # Punto de entrada de la aplicación
 
