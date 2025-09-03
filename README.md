@@ -24,10 +24,6 @@ El sistema permite al usuario dibujar un número en una interfaz gráfica y obte
 
 ✅ Predicciones en tiempo real: integración directa entre el modelo y la interfaz.
 
-## 🖼️ Vista previa
-
-(Aquí puedes añadir capturas de pantalla o un GIF mostrando cómo el usuario dibuja y recibe la predicción)
-
 ## 🛠️ Tecnologías utilizadas
 
 Python
