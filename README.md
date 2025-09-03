@@ -42,20 +42,21 @@ NumPy, Matplotlib (para preprocesamiento y visualización)
 
 ## ⚡ Cómo ejecutar el proyecto
 
-Clonar el repositorio:
-
-git clone https://github.com/iratxe-pm/Reconocimiento-Numeros.git
-cd Reconocimiento-Numeros
-
-
-Instalar dependencias:
-
-pip install -r requirements.txt
+1. Clonar el repositorio:
+   ```bash
+   git clone https://github.com/iratxe-pm/Reconocimiento-Numeros.git
+   cd Reconocimiento-Numeros
 
 
-Ejecutar la aplicación:
+3. Instalar dependencias:
+   ```bash
+   pip install -r requirements.txt
 
-python main.py
+
+3. Ejecutar la aplicación:
+   ```bash
+   python main.py
+
 
 ## 🎯 Resultados
 
