@@ -3,6 +3,15 @@
 Este proyecto implementa un sistema de reconocimiento de dígitos manuscritos mediante una Red Neuronal Convolucional (CNN) entrenada con el dataset MNIST.
 El sistema permite al usuario dibujar un número en una interfaz gráfica y obtener en tiempo real la predicción del modelo.
 
+![Python](https://img.shields.io/badge/Python-3.8%2B-blue)
+![TensorFlow](https://img.shields.io/badge/TensorFlow-2.x-orange)
+![Keras](https://img.shields.io/badge/Keras-red)
+![Pillow](https://img.shields.io/badge/Pillow-✓-brightgreen)
+![NumPy](https://img.shields.io/badge/NumPy-✓-blue)
+![pandas](https://img.shields.io/badge/pandas-✓-lightblue)
+![License](https://img.shields.io/badge/license-MIT-green)
+
+
 ## 🚀 Características principales
 
 ✅ Red Neuronal Convolucional (CNN): modelo robusto para la clasificación de dígitos manuscritos.
@@ -15,7 +24,7 @@ El sistema permite al usuario dibujar un número en una interfaz gráfica y obte
 
 ✅ Predicciones en tiempo real: integración directa entre el modelo y la interfaz.
 
-🖼️ Vista previa
+## 🖼️ Vista previa
 
 (Aquí puedes añadir capturas de pantalla o un GIF mostrando cómo el usuario dibuja y recibe la predicción)
 
@@ -30,9 +39,9 @@ Tkinter
 NumPy, Matplotlib (para preprocesamiento y visualización)
 
 ## 📂 Estructura del proyecto
-├── red_neuronal.py/       # Entrenamiento de la red
+├── red_neuronal.py        # Entrenamiento de la red
 
-├── red_keras/             # Almacenamiento de los resultados del entrenamiento de la red
+├── red_keras              # Almacenamiento de los resultados del entrenamiento de la red
 
 ├── main.py                # Punto de entrada de la aplicación
 
@@ -48,7 +57,7 @@ NumPy, Matplotlib (para preprocesamiento y visualización)
    cd Reconocimiento-Numeros
 
 
-3. Instalar dependencias:
+2. Instalar dependencias:
    ```bash
    pip install -r requirements.txt
 
@@ -68,11 +77,11 @@ Experiencia interactiva para el usuario final.
 
 ## 📌 Futuras mejoras
 
- Guardar y cargar predicciones anteriores.
+ - Guardar y cargar predicciones anteriores.
 
- Añadir soporte para más idiomas en la interfaz.
+ - Añadir soporte para más idiomas en la interfaz.
 
- Mejorar la interfaz con Tkinter avanzado o PyQt.
+ - Mejorar la interfaz con Tkinter avanzado o PyQt.
 
 ## 👩‍💻 Autor
 
